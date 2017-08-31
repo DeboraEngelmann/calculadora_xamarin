@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:calculadora_xamarin"
+             x:Class="calculadora_xamarin.MainPage">
+
+    <StackLayout Padding="16">
+
+        <Label Text="Nome"   VerticalOptions="Start"   HorizontalOptions="Start" />
+
+        <Entry x:Name="nome" Placeholder="Debora"/>
+
+        <Label Text="Valor 1"   VerticalOptions="Start"   HorizontalOptions="Start" />
+
+        <Entry x:Name="valor1" Placeholder="0"/>
+
+        <Label Text="Valor 2" VerticalOptions="Start"  HorizontalOptions="Start"/>
+
+        <Entry   x:Name="valor2"     Placeholder="0"/>
+
+        <Button Text="Calcular" FontSize="Medium" HorizontalOptions="Center"  Clicked="Button_Clicked"         VerticalOptions="Start" />
+
+    </StackLayout>
+
+
+</ContentPage>

@@ -1,0 +1,18 @@
+﻿<Page
+    x:Class="calculadora_xamarin.Resultado"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:calculadora_xamarin"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <StackLayout Padding="16">
+        <Label x:Name="pessoa" />
+        <Label  x:Name="soma" Text="" FontSize="Medium"       TextColor="Red"    VerticalOptions="Start"      HorizontalOptions="CenterAndExpand"/>
+        <Label  x:Name="divisao" Text="" FontSize="Medium" TextColor="Aquamarine" VerticalOptions="Start"  HorizontalOptions="CenterAndExpand"/>
+        <Label  x:Name="multiplicacao" Text="" FontSize="Medium" TextColor="Green" VerticalOptions="Start" HorizontalOptions="CenterAndExpand"/>
+        <Label x:Name="subtracao"   Text="" FontSize="Medium"  TextColor="Yellow"  VerticalOptions="Start" HorizontalOptions="CenterAndExpand"/>
+    </StackLayout>
+
+</Page>
